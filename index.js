@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { faker } = require('@faker-js/faker');
 const mysql = require('mysql2');
 const express = require('express');
