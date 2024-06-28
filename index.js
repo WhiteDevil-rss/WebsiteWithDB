@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, "/public/js")));
 
 const connection = mysql.createConnection({
     host: process.env.host,
-    port: process.env.port,
+    port: process.env.portdb,
     user: process.env.username,
     database: process.env.database,
     password: process.env.password
